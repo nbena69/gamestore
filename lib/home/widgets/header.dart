@@ -38,7 +38,10 @@ class HeaderSection extends StatelessWidget {
             ],
           ),
           CircleAvatar(
-            child: Image.asset('assets/images/avatar.png'),
+            child: Image.asset(
+              'assets/images/avatar.png',
+              fit: BoxFit.cover,
+            ),
           )
         ],
       ),
