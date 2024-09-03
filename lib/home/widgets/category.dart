@@ -5,6 +5,9 @@ class CategorySection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      height: 500,
+      color: Colors.white,
+    );
   }
 }

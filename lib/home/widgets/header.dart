@@ -18,7 +18,7 @@ class HeaderSection extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Welcome',
+                'Hey,',
                 style: TextStyle(
                   fontSize: 22,
                   color: Colors.white,
