@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gamestore/home/widgets/header.dart';
+import 'package:gamestore/home/widgets/search.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -31,9 +32,10 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          Column(
+          const Column(
             children: [
               HeaderSection(),
+              SearchSection(),
             ],
           )
         ],
