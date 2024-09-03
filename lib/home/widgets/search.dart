@@ -6,12 +6,16 @@ class SearchSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 30),
+      padding: const EdgeInsets.symmetric(
+        horizontal: 25,
+        vertical: 30,
+      ),
       child: Stack(
         children: [
           TextField(
+            cursorColor: const Color(0xFF5F67EA),
             decoration: InputDecoration(
-              fillColor: Colors.white,
+              fillColor: const Color(0xFFF6F8FF),
               filled: true,
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(20),
@@ -19,6 +23,10 @@ class SearchSection extends StatelessWidget {
                   width: 0,
                   style: BorderStyle.none,
                 ),
+              ),
+              contentPadding: const EdgeInsets.symmetric(
+                horizontal: 20,
+                vertical: 20,
               ),
               prefixIcon: const Icon(
                 Icons.search_outlined,
@@ -32,13 +40,13 @@ class SearchSection extends StatelessWidget {
             ),
           ),
           Positioned(
-            right: 12,
             bottom: 10,
+            right: 12,
             child: Container(
               padding: const EdgeInsets.all(5),
               decoration: BoxDecoration(
-                color: const Color(0xFF5F67EA),
                 borderRadius: BorderRadius.circular(10),
+                color: const Color(0xFF5F67EA),
               ),
               child: const Icon(
                 Icons.mic_outlined,
@@ -46,7 +54,7 @@ class SearchSection extends StatelessWidget {
                 size: 25,
               ),
             ),
-          ),
+          )
         ],
       ),
     );
