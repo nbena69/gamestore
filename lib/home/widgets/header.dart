@@ -5,7 +5,7 @@ class HeaderSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Padding(
       padding: EdgeInsets.only(
         top: MediaQuery.of(context).padding.top,
         left: 25,
@@ -18,21 +18,23 @@ class HeaderSection extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Hey,",
+                'Hey,',
                 style: TextStyle(
                   fontSize: 22,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(height: 5),
+              SizedBox(
+                height: 5,
+              ),
               Text(
-                "Tu aimerais jouer à quoi aujourd'hui ?",
+                'Tu veux jouer à quoi aujourd\'hui ?',
                 style: TextStyle(
                   fontSize: 19,
                   color: Colors.white,
                 ),
-              ),
+              )
             ],
           ),
           CircleAvatar(
