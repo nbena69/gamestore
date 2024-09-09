@@ -1,18 +1,15 @@
 # gamestore
 
-A new Flutter project.
+Ce projet a été généré avec [Flutter](https://github.com/flutter/flutter) version 3.24.1.
 
-## Getting Started
+## À Propos du Projet
 
-This project is a starting point for a Flutter application.
+Gamestore est une application mobile Flutter offrant une expérience moderne.
 
-A few resources to get you started if this is your first Flutter project:
+## Fonctionnalités
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Utilisation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Build
 
-Projet en cours de développement
+## Contributions
