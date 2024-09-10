@@ -13,3 +13,5 @@ Gamestore est une application mobile Flutter offrant une expérience moderne.
 ## Build
 
 ## Contributions
+
+EN COURS
