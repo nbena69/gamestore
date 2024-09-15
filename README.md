@@ -1,4 +1,4 @@
-# gamestore
+# Gamestore
 
 Gamestore est une application mobile moderne développée en [Flutter](https://github.com/flutter/flutter) (version 3.24.1) qui permet aux utilisateurs de parcourir et de découvrir des jeux. Elle offre une interface intuitive avec deux pages principales : une page d'accueil et une page de détails pour chaque jeu.
 
