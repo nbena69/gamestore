@@ -32,7 +32,7 @@ class SearchSection extends StatelessWidget {
                 Icons.search_outlined,
                 size: 30,
               ),
-              hintText: "Chercher un jeu",
+              hintText: "Rechercher un jeu",
               hintStyle: TextStyle(
                 fontSize: 14,
                 color: Colors.grey.withOpacity(0.7),
