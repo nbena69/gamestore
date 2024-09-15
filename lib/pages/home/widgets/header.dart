@@ -14,11 +14,11 @@ class HeaderSection extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Column(
+          const Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
+            children: [
               Text(
-                "Welcome,",
+                "Bienvenue,",
                 style: TextStyle(
                   fontSize: 22,
                   color: Colors.white,
@@ -27,7 +27,7 @@ class HeaderSection extends StatelessWidget {
               ),
               SizedBox(height: 5),
               Text(
-                "What would you like to play?",
+                "A quoi aimerais-tu jouer ?",
                 style: TextStyle(
                   fontSize: 19,
                   color: Colors.white,

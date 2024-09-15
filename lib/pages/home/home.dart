@@ -74,7 +74,7 @@ class HomePage extends StatelessWidget {
             type: BottomNavigationBarType.fixed,
             items: [
               const BottomNavigationBarItem(
-                label: 'home',
+                label: 'Accueil',
                 icon: Icon(
                   Icons.home_rounded,
                   size: 50,
@@ -113,7 +113,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               BottomNavigationBarItem(
-                label: "Book",
+                label: "Livre",
                 icon: Container(
                   margin: const EdgeInsets.all(5),
                   padding: const EdgeInsets.all(5),

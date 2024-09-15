@@ -11,18 +11,18 @@ class ReviewSection extends StatelessWidget {
       padding: const EdgeInsets.all(25),
       child: Column(
         children: [
-          Row(
+          const Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
+            children: [
               Text(
-                'Ratings and review',
+                'Notes et avis',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                 ),
               ),
               Text(
-                'view',
+                'Voir',
                 style: TextStyle(
                   fontSize: 12,
                   color: Colors.grey,
@@ -73,7 +73,7 @@ class ReviewSection extends StatelessWidget {
                   ),
                   const SizedBox(height: 5),
                   Text(
-                    '${game.review.toString()} review',
+                    '${game.review.toString()} revoir',
                     style: const TextStyle(
                       color: Colors.grey,
                     ),
@@ -96,7 +96,7 @@ class ReviewSection extends StatelessWidget {
               ),
               onPressed: () {},
               child: const Text(
-                'Install',
+                'Installer',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 18,
