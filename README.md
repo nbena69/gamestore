@@ -14,20 +14,27 @@ Ce projet a été conçu pour offrir une expérience simple et efficace aux util
 - Affichage optimisé des informations sur chaque jeu.
 - Interface utilisateur moderne et responsive.
 
-## Utilisation
+## Installation
 
-1. **Serveur de Développement :**
+1. Clonez le dépôt :
+
    ```bash
    git clone https://github.com/nbena69/gamestore.git
-2. Créez une branche pour votre fonctionnalité
+
+2. Naviguez dans le répertoire du projet :
+
    ```bash
-   cd gamestore
-3. Commit de vos modifications
+   cd bookbook
+
+3. Installez les dépendances :
+
    ```bash
    flutter pub get
-4. Push vers la branche
+
+4. Lancez l'application :
+
    ```bash
-   flutter run
+    flutter run
 
 ## Build
 
@@ -43,18 +50,25 @@ Pour construire l'application pour Android ou iOS :
 - **IDE :** Développement réalisé avec [IntelliJ IDEA](https://www.jetbrains.com/idea/).
 - **Émulateur :** Visualisation sur l'émulateur Android fourni par [Android Studio](https://developer.android.com/studio?hl=fr).
 
-## Contributions
+## Contribuer
 
-Si vous souhaitez contribuer à ce projet, suivez ces étapes :
+Les contributions sont les bienvenues ! Pour contribuer, veuillez suivre ces étapes :
 
-1. Fork du projet
-2. Créez une branche pour votre fonctionnalité
+1. Forkez le projet.
+
+2. Créez une nouvelle branche pour votre fonctionnalité ou correction :
+
    ```bash
-   git checkout -b feature/NouvelleFonctionnalite
-3. Commit de vos modifications
+    git checkout -b feature/nouvelle-fonctionnalité
+
+3. Effectuez vos modifications et validez-les :
+
    ```bash
-   git commit -am 'Ajout de la nouvelle fonctionnalité'
-4. Push vers la branche
+   git commit -m 'Ajout d\'une nouvelle fonctionnalité'
+   
+4. Poussez la branche :
+
    ```bash
-   git push origin feature/NouvelleFonctionnalite
-5. Créez une Pull Request
+   git push origin feature/nouvelle-fonctionnalité
+
+5. Ouvrez une Pull Request.
