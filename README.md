@@ -1,74 +1,74 @@
 # Gamestore
 
-Gamestore est une application mobile moderne développée en [Flutter](https://github.com/flutter/flutter) (version 3.24.1) qui permet aux utilisateurs de parcourir et de découvrir des jeux. Elle offre une interface intuitive avec deux pages principales : une page d'accueil et une page de détails pour chaque jeu.
+Gamestore is a modern mobile application developed in [Flutter](https://github.com/flutter/flutter) (version 3.24.1) which allows users to browse and discover games. It offers an intuitive interface with two main pages: a home page and a details page for each game.
 
-## À Propos du Projet
+## About project
 
-Ce projet a été conçu pour offrir une expérience simple et efficace aux utilisateurs souhaitant découvrir des jeux. Il comprend deux pages :
-- **Page d'accueil :** Liste des jeux disponibles.
-- **Page de détail de jeu :**  Détails approfondis pour chaque jeu, incluant des descriptions et des informations pertinentes.
+This project was designed to provide a simple and efficient experience for users wishing to discover games. It includes two pages:
+- **Home page :** Liste des jeux disponibles.
+- **Game detail page :**  Detailed pages for each game, including descriptions and relevant information.
 
-## Fonctionnalités
+## Features
 
-- Navigation fluide entre la page d'accueil et la page de détail du jeu.
-- Affichage optimisé des informations sur chaque jeu.
-- Interface utilisateur moderne et responsive.
+- Smooth navigation between the home page and the game detail page.
+- Optimized display of information about each game.
+- Modern and responsive user interface.
 
 ## Installation
 
-1. Clonez le dépôt :
+1. Clone the repository :
 
    ```bash
    git clone https://github.com/nbena69/gamestore.git
 
-2. Naviguez dans le répertoire du projet :
+2. Navigate to the project directory:
 
    ```bash
-   cd bookbook
+   cd gamestore
 
-3. Installez les dépendances :
+3. Install dependencies :
 
    ```bash
    flutter pub get
 
-4. Lancez l'application :
+4. Launch the app :
 
    ```bash
     flutter run
 
 ## Build
 
-Pour construire l'application pour Android ou iOS :
+To create the app for Android or iOS:
 - **Android :**
   ```bash
    flutter build apk
-- **IOS** (nécessite un environnement macOS) :
+- **IOS** (requires macOS environment) :
   ```bash
    flutter build ios
 
-## Outils Utilisés
-- **IDE :** Développement réalisé avec [IntelliJ IDEA](https://www.jetbrains.com/idea/).
-- **Émulateur :** Visualisation sur l'émulateur Android fourni par [Android Studio](https://developer.android.com/studio?hl=fr).
+## Tools Used
+- **IDE :** Development carried out with [IntelliJ IDEA](https://www.jetbrains.com/idea/).
+- **Emulator :** Viewing on the Android emulator provided by [Android Studio](https://developer.android.com/studio?hl=fr).
 
-## Contribuer
+## Contribute
 
-Les contributions sont les bienvenues ! Pour contribuer, veuillez suivre ces étapes :
+Contributions are welcome! To contribute, please follow these steps:
 
-1. Forkez le projet.
+1. Fork the project.
 
-2. Créez une nouvelle branche pour votre fonctionnalité ou correction :
-
-   ```bash
-    git checkout -b feature/nouvelle-fonctionnalité
-
-3. Effectuez vos modifications et validez-les :
+2. Create a new branch for your feature or fix:
 
    ```bash
-   git commit -m 'Ajout d\'une nouvelle fonctionnalité'
+    git checkout -b feature/new-feature
+
+3. Make your changes and validate them:
+
+   ```bash
+   git commit -m 'Added a new feature'
    
-4. Poussez la branche :
+4. Push the branch:
 
    ```bash
-   git push origin feature/nouvelle-fonctionnalité
+   git push origin feature/new-feature
 
-5. Ouvrez une Pull Request.
+5. Open a Pull Request.
